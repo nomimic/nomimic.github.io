@@ -4,8 +4,9 @@ title: "SPRING BOOT - 시작하기"
 subtitle: "나는 왜 스프링부트를 사용하는가?"
 categories: SPRING SPRING-BOOT
 tags: SPRING SPRING-BOOT
-asset-root: /assets/2016-09-09-spring-boot
+description: "Spring boot 시작하기"
 comments: true
+asset-root: /assets/2016-09-09-spring-boot
 ---
 
 # Spring Boot - 나는 왜 스프링부트를 사용하는가?
