@@ -37,7 +37,7 @@ disqus:
 # Build settings
 markdown: kramdown
 #permalink: pretty
-permalink: /:year-:month-:day-:title/
+permalink: /blog/:year-:month-:day-:title/
 paginate : 10
 highlighter: rouge
 gems:
