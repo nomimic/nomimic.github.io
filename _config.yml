@@ -29,7 +29,8 @@ facebook_username: nomimic
 header-img: img/home-bg.jpg
 
 google_analytics: UA-60165492-1
-disqus-id: nomimic
+disqus:
+  id: nomimic
 
 
 
