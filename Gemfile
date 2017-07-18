@@ -22,6 +22,8 @@ group :jekyll_plugins do
   gem "jekyll", "3.5.0"
   gem "jekyll-paginate"
   gem "jekyll-feed"
+  gem "liquid-md5"
+  gem "jekyll-gist"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

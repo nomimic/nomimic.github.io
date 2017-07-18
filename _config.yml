@@ -32,7 +32,8 @@ google_analytics: UA-60165492-1
 disqus:
   id: nomimic
 
-
+gravatar:
+  email: the.nomimic@gmail.com
 
 # Build settings
 markdown: kramdown
@@ -43,10 +44,12 @@ highlighter: rouge
 gems:
   - jekyll-feed
   - jekyll-paginate
+  - liquid-md5
+  - jekyll-gist
 
 
 
-exclude: ["README.md"]
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
