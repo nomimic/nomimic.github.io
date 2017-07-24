@@ -6,7 +6,7 @@ layout: page
 description: 슬플 때 웃을 수 있게
 ---
 # Recent Posts
-
+{{ jekyll.environment }}
 {% for post in site.posts limit: 5 %}
   {% include post-preview.html %}
 {% endfor %}
