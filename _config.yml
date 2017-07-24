@@ -38,15 +38,36 @@ gravatar:
 # Build settings
 markdown: kramdown
 #permalink: pretty
-permalink: /blog/:year-:month-:day-:title/
-paginate : 10
+permalink: /posts/:year-:month-:day-:title/
+
+paginate : 5
+paginate_path: "/posts/:num/"
+
 highlighter: rouge
 gems:
   - jekyll-feed
   - jekyll-paginate
   - liquid-md5
   - jekyll-gist
+  - jekyll-archives
 
+gist:
+  noscript: false
+
+jekyll-archives:
+  enabled:
+    - year
+    - month
+    - tags
+    - categories
+  layouts:
+    year: 'archive-year'
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'
 
 
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]

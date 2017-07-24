@@ -1,0 +1,12 @@
+- order: 1
+  class: label label-default
+- order: 2
+  class: label label-primary
+- order: 3
+  class: label label-success
+- order: 4
+  class: label label-info
+- order: 5
+  class: label label-warning
+- order: 6
+  class: label label-danger

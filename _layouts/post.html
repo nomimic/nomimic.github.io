@@ -12,14 +12,14 @@ layout: default
                     <h2 class="subheading">{{ page.subtitle }}</h2>
                     {% endif %}
 
-                    {% if post %}
+                    <!-- {% if post %}
                         {% assign tags = post.tags %}
                     {% else %}
                       {% assign tags = page.tags %}
                     {% endif %}
                     {% for tag in tags %}
                     <span class="badge">{{ tag }}</span>
-                    {% endfor %}
+                    {% endfor %} -->
                     <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
                 </div>
             </div>
