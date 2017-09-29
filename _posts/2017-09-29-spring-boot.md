@@ -166,3 +166,7 @@ public ConfigurableApplicationContext run(String... args) {
   - ApplicationRunner.class
   - CommandLineRunner.class
 * Runner Bean 들은 지정된 순서에 의해 실행된다
+
+## Spring Boot (SpringApplication)지원 라이브러리 또는 어플리케이션 개발 방법
+
+* `META-INF/spring.factories` 파일을 생성하고 `ApplicationContextInitializer`,`ApplicationListener` 또는 `EnableAutoConfiguration`관련 팩토리 클래스들을 나열함으로 중간중간 `SpringApplication`이 동작하는 과정에 개입을 할 수 있다.
