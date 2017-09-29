@@ -50,6 +50,7 @@ gems:
   - liquid-md5
   - jekyll-gist
   - jekyll-archives
+  - jekyll-toc
 
 gist:
   noscript: false

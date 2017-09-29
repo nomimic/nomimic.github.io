@@ -41,7 +41,7 @@ layout: default
                 <span class="badge">{{ tag }}</span>
               {% endfor %}
 
-      				{{ content }}
+              {{ content | toc }}
 
               {% include disqus-comments.html %}
 

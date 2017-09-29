@@ -25,6 +25,7 @@ group :jekyll_plugins do
   gem "liquid-md5"
   gem "jekyll-gist"
   gem "jekyll-archives"
+  gem "jekyll-toc"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
